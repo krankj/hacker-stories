@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component App snapshot component 1`] = `
+<div
+  class="container"
+>
+  <h1
+    class="headlinePrimary"
+  >
+    My Hacker Stories
+  </h1>
+  <form
+    class="searchForm"
+  >
+    <label
+      class="label"
+      for="search"
+    >
+      Search:
+    </label>
+     
+    <input
+      class="input"
+      id="search"
+      type="text"
+      value="JavaScript"
+    />
+    <p>
+      Searching : 
+      <strong>
+        JavaScript
+      </strong>
+    </p>
+    <button
+      class="button buttonSmall"
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+  <div
+    class="item"
+  >
+    <span
+      style="width: 40%;"
+    >
+      <a
+        href="https://en.wikipedia.org/wiki/JavaScript"
+      >
+        JavaScript
+      </a>
+    </span>
+    <span
+      style="width: 30%;"
+    >
+      Brendan Eich
+    </span>
+    <span
+      style="width: 10%;"
+    >
+      15
+    </span>
+    <span
+      style="width: 10%;"
+    >
+      10
+    </span>
+    <span
+      style="width: 10%;"
+    >
+      <button
+        class="button buttonSmall"
+        type="button"
+      >
+        <svg
+          height="18px"
+          width="18px"
+        >
+          check.svg
+        </svg>
+      </button>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Search Component  Snapshot test 1`] = `
+<form
+  class="searchForm"
+>
+  <label
+    class="label"
+    for="search"
+  >
+    Search:
+  </label>
+   
+  <input
+    class="input"
+    id="search"
+    type="text"
+    value="React"
+  />
+  <p>
+    Searching : 
+    <strong>
+      React
+    </strong>
+  </p>
+  <button
+    class="button buttonSmall"
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
